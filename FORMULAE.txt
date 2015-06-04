@@ -1,0 +1,20 @@
+RD: RELATIVE DISTANCE
+WT: WAITING TIME OF CALLER
+FS: FREE SPACE OF ELEVATOR
+
+CALCULATION OF VARIABLES:
+
+1) RD= 0 (if lift is on way of called floor)
+   
+   IF STATIONARY 
+
+   RD= |STATIONARY FLOOR- CALLED FLOOR|
+
+   else RD= |NEAREST DESTINATION FLOOR- CALLED FLOOR|
+
+2) WT= Time an elevator takes from its cuurrent location to called floor
+
+   Assuming elevator takes 1 unit of time b/w 2 floors then,
+   WT= |CURRENT LOCATION - CALLED FLOOR|
+
+3) FS= Total capacity - Current load of lift

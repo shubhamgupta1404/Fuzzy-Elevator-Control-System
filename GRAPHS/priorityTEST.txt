@@ -1,0 +1,7 @@
+Testing 
+rd= 5
+wt= 3
+fs= 2
+
+
+priority=0.449277

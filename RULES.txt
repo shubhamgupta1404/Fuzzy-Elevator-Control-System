@@ -1,0 +1,34 @@
+RD: RELATIVE DISTANCE
+WT: WAITING TIME OF CALLER
+FS: FREE SPACE OF ELEVATOR
+
+FUZZY RULES:
+
+
+IF		Attribute		then		Attribute
+------------------------------------------------------------------
+
+RD		LOW			Priority	HIGH
+
+RD		MED			Priority	MED
+
+RD		LOW			Priority	LOW
+__________________________________________________________________
+
+WT		SHORT			Priority	HIGH
+
+WT		MED			Priority	MED
+
+WT		LONG			Priority	LOW
+__________________________________________________________________
+
+FS		SMALL			Priority	LOW
+
+FS		MED			Priority	MED
+
+FS		LARGE			Priority	HIGH
+_________________________________________________________________
+
+
+
+

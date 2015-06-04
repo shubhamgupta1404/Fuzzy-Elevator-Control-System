@@ -1,0 +1,33 @@
+Relative Distance on a scale of 10 (0-9)...
+Fuzzy No.Type ------- Fuzzy No. -----  Attribute
+
+triangular    	      [0 0 2]          low
+triangular            [1 3 6]          medium
+trapezoidal          [5 8 9 9]         high
+-------------------------------------------------------------
+
+Waiting time on a scale of 10 (0-9)...
+(assuming lift takes 1 unit time to travel b/w 2 floors)
+
+Fuzzy No.Type ------- Fuzzy No. -----  Attribute
+
+trapezoidal    	      [0 0 2 4]          short
+triangular            [2 4.5 7]          medium
+trapezoidal           [5 7 9 9]          long
+------------------------------------------------------------
+
+Free Space on a scale of 10 (0-9)...
+Lift Capacity - No. of Passenger in lift
+
+Fuzzy No.Type ------- Fuzzy No. -----  Attribute
+trapezoidal    	      [0 0 2 4]          low
+triangular            [2 4.5 7]          medium
+trapezoidal           [5 7 9 9]          high
+--------------------------------------------------------------
+
+Priority on a scale of 1 (0.0 - 1)...
+Fuzzy No.Type ------- Fuzzy No. -----  Attribute
+
+triangular    	      [0 0 .5]          low
+triangular          [0.25 0.5 0.75]     medium
+triangular            [0.5 1 1]         high
